@@ -1,0 +1,44 @@
+Denkstappen lingo: 
+
+(Split) = lijstje met letters
+
+voorbeeld:
+
+water value
+01234 index
+
+awter input
+
+stap 1 - splitten 
+awter value
+01234 index
+stap 2 - controlleren 0 en 0 controlleren, 1 en 1, 2 en 2 (goed = groen) 3 en 3, (goed = groen), 4 en 4 (goed = groen)
+stap 3 - kijken of de letters die fout waren in de lijst staan (indexOf) (goed = geel)
+
+kijken of input op dezelfde plaats staat als gekozen woord (goed = groen)
+kijken of foute letters van input ergens in het woord zitten (goed = geel)
+komt niet voor? (fout = rood)
+meerdere zelfde letters? haal de letter weg uit de array wanneer die groen is
+input + te raden = if 
+
+index die je terug krijgt weghalen
+
+// "woord in array zetten, elk letter van woordje in array, als ingevoerde letter niet op juiste plaats staat dan gaat door array  heen kijken, iets break"
+
+// ".value"
+
+
+// var btn = document.getElementById('btn');
+// var names = ["dylano", "pietje", "janhenk", "achmet"];
+// var names2 = document.getElementById('txtInput');
+
+// btn.onclick = searchName;
+
+// function searchName() {
+//     var person = names2.value;
+//     var place = names.indexOf(person);
+//     document.write
+// };
+
+//  var rand = quicklist[Math.floor(Math.random() * quicklist.length)].toUpperCase();
+  var hasDuplicates = (/([a-zA-Z]).*?\1/).test(rand); // if multiple insances of a letter in the word
