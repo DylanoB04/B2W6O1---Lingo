@@ -1,14 +1,14 @@
-var div = document.getElementById('container');
+//Div
+var DivOne=document.getElementById('DivOne');   var DivTwo=document.getElementById('DivTwo');
 
-//Woord uit de array
-var randomWord = words[Math.floor(Math.random() * words.length)];
-var wordSplit = randomWord.split("");
-console.log(wordSplit);
-var text = document.getElementById('text');
-text.innerText = randomWord[0]
+//Word List
+var RandomWord=words[Math.floor(Math.random() * words.length)];
+var RandomWordSplit=RandomWord.split("");   console.log(RandomWordSplit);
 
-//Ingevoerd woord
-var inputWord = prompt("Raad het woord");
-var inputSplit = inputWord.split("");
-var inputText = document.getElementById('inputText');
-inputText.innerText = inputWord;
+//Buttons
+for(i=1;i<=5;i++){
+    var btn=document.createElement("BUTTON");   btn.id="btn"+i;    btn.innerHTML=i;
+    DivTwo.appendChild(btn);
+}
+btn1.innerHTML=RandomWordSplit[0];
+btn1.style.backgroundColor="green";

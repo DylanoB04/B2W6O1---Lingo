@@ -2,3 +2,40 @@ body{
     background-color: #669999;
 }
 
+#DivOne{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    text-align: center;
+    display: inline-block;
+    font-size: 50px;
+}
+
+#WordInput{
+    width: 200px;
+    height: 100px;
+    font-size: 60px;
+}
+
+#CheckBtn{
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    border: none;
+
+}
+
+#DivTwo{
+    width: 1000px;
+    height: 500px;
+    float: right;
+    background-color: beige;
+    text-align: center;
+    display: block;
+}
+
+button{
+    width: 150px;
+    height: 100px;
+    font-size: 50px;
+}
