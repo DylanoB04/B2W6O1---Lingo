@@ -1,5 +1,6 @@
 body{
     background-color: #669999;
+    overflow: hidden;
 }
 
 #DivOne{
@@ -25,9 +26,14 @@ body{
 
 }
 
+#CounterTries{
+    font-size: 20px;
+}
+
 #DivTwo{
-    width: 1000px;
-    height: 500px;
+    padding-top: 2%;
+    width: 800px;
+    height: 600px;
     float: right;
     background-color: beige;
     text-align: center;
